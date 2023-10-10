@@ -1,0 +1,8 @@
+Solid Design:
+
+	1. Single Principle : The Class should perform single task. It helps in maintiaining the application in long run
+
+	2. OCP Principle : open for extension closed for modification. This can be acheived by using interface and classes. For example: if we have class which filter out products based on their attributes like
+	size, price, color etc and new requirement comes to filter based on some other attributes. Then dont change the existing implementation rather add new interfaces and classes to acheive this.
+
+	3. Liskov Substitute Principle: Your design should support the - "Dynamic Binding" while creating the objects i.e the reference variable can be initialised with subclass and produce the correct output.
